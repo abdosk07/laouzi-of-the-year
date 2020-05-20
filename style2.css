@@ -1,0 +1,196 @@
+
+body{
+	background: linear-gradient(yellow,green);
+}
+
+
+
+body{
+
+/*	background-color: gray;*/
+	direction: rtl;
+}
+.logo{
+	width: 80px;
+	float: right;
+	margin-right: 30px;
+}
+
+h1{
+	text-align: center;
+	color: blue;
+}
+p:hover{
+	background-color: pink;
+	font-weight: bold;
+}
+
+ul{
+
+}
+
+li{
+	margin-top: 50px;
+	list-style-type: none;
+	display: inline-block;
+
+}
+a{
+	border: 1px solid white;
+	padding: 5px 30px;
+	color: black;
+	text-decoration: none;
+	font-family: verdana;
+	font-size: 20px;
+
+}
+a:hover{
+	background-color: pink;
+	color: yellow;
+	font-weight: bold;
+}
+div{
+	background-color: #e9ebf0;
+	padding: 10px;
+	margin: 15px;
+}
+h2{
+	text-align: center;
+	color: #3498db;
+}
+
+
+.rca1{
+	width: 200px;
+	float: right;
+	margin-left: 10px;
+}
+
+.rca{
+	display: inline;
+}
+
+
+p{
+	font-size: 30px;
+}
+
+
+
+
+
+#para1{
+	text-shadow: 5px 2px 10px white;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+.rca2 {
+	width: 37%;
+	float: right;
+	clear: right;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+table{
+	border-collapse: collapse;
+	font-size: 155%;
+	
+}
+
+td,th{
+	border: 1px solid ;
+
+}
+th{
+	color: white;
+	background-color: black;
+}
+
+tr:nth-child(even){
+	background-color:  yellow;
+}
+
+tr:nth-child(odd){
+	background-color:  aqua;
+}
+
+.titre{
+	text-shadow: 2px 2px 5px green;
+}
+
+.rca4{
+	width: 35%;
+	height: 350px;
+	float: left;
+	margin-left: 15px;
+}
+.rca3{
+	width: 35%;
+	height: 350px;
+	float: right;
+    margin-right: 15px;
+
+
+}
+
+.table2{
+	margin: 0px auto;
+}
+
+.table2 tr:nth-child(even){
+	background-color: pink;
+}
+
+.table2 tr:nth-child(odd){
+	background-color: gray;
+}
+
+
+
+form{
+	font-family: sans-serif; ;
+	font-size: 18px;
+	border: 2px solid black;
+	border-radius: 10px;
+	max-width: 450px;
+	margin: 20px auto;
+	/*direction: ltr;*/
+	padding: 20px ;
+}
+
+label{
+	display: block;
+	margin-top: 10px;
+
+}
+
+input,textarea,select{
+	display: block;
+	width: 100%;
+	border: 2px solid pink;
+	border-radius: 10px;
+	padding-top: 10px;
+	font-size: 18px;
+
+}
+
+
+#Envoyer{
+	width: auto;
+	margin-top: 10px;
+	border: 0;
+	background-color: yellow;
+	color: green;
+	font-size: 20px;
+
+}
+
+#Envoyer:hover{
+	background-color: #00bfff;
+	color: white;
+
+}
